@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="30" viewBox="0 0 150 30">
+  <!-- Linear Gradient for Text Color -->
+  <defs>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B6B" />
+      <stop offset="100%" style="stop-color:#6B66FF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Text with Bold and Linear Gradient Fill -->
+  <text x="10" y="22" font-family="Arial" font-size="12" font-weight="bold">
+    <tspan fill="url(#textGradient)">CodeWithAmish</tspan>
+  </text>
+</svg>

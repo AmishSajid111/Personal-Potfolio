@@ -1,0 +1,49 @@
+#works{
+    margin:0 auto;
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width:60rem;
+    display:flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+
+
+
+
+
+}  
+.worksTitle{
+    marg5in:1rem 0;
+    font-size: 3rem;
+
+}
+.worksDesc{
+    font-weight: 300;
+    font-size: 1rem;
+}
+.worksImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65rem;
+    flex-wrap: wrap;
+
+}
+.worksImg{
+ object-fit: cover;
+ height: 20rem;
+ margin: 0.5rem;
+}
+.workBtn{
+    padding: 0.5rem 2.5rem;
+    background-color: white;
+    color: #000;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin: 3rem 0;
+}
